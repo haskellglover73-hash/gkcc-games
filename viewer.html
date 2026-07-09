@@ -1,17 +1,21 @@
-const params = new URLSearchParams(window.location.search);
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GKCC Game Viewer</title>
 
-const game = params.get("game");
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@lichess-org/pgn-viewer/dist/lichess-pgn-viewer.min.css">
 
-fetch("games/" + game)
-    .then(r => r.text())
-    .then(pgn => {
+    <script src="https://cdn.jsdelivr.net/npm/@lichess-org/pgn-viewer/dist/lichess-pgn-viewer.min.js"></script>
+</head>
 
-        LichessPgnViewer(
-            document.getElementById("board"),
-            {
-                pgn: pgn,
-                showMoves: "right"
-            }
-        );
+<body>
 
-    });
+<h1 id="title"></h1>
+
+<div id="board"></div>
+
+<script src="js/viewer.js"></script>
+
+</body>
+</html>
