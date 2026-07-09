@@ -1,0 +1,82 @@
+[Event "US Senior Open"]
+[Site "Rosemont, IL"]
+[Date "2026.06.21"]
+[Round "6"]
+[White "Root, Douglas"]
+[Black "Bereolos, Peter"]
+[Result "0-1"]
+[ECO "D31"]
+[Annotator "Bereolos,Peter"]
+[PlyCount "82"]
+[EventDate "2026.06.19"]
+[EventType "swiss"]
+[EventRounds "6"]
+[EventCountry "USA"]
+
+ {Haskell asked me to
+annotate my final round game from the US Senior Open for the club email list.
+I got paired up to face the top seed International Master Douglas Root. He had
+knocked me out of contention for first last year, so I was looking to return
+the favor.} 1. d4 d5 2. c4 ({Last year he went for a quiet game with} 2. e3)
+2... e6 3. Nc3 Bb4 {This hybrid between the Nimzo-Indian and the Queen's
+Gambit Declined offers chances for an unbalanced game.} 4. Qb3 $5 {This is a
+fairly rare move. My database shows it 6th in popularity with less than 100
+games played. These days it is very rare to get to such a relatively fresh
+position after only 4 moves.} c5 {This is a fairly normal response to Qb3 in
+the Nimzo-Indian and seems to be best here as well. The queen move leaves d4 a
+little soft, so Black immediately strikes at it} 5. cxd5 exd5 6. e3 Nc6 7. Bb5
+Nf6 8. dxc5 Bxc5 9. Nge2 O-O 10. O-O a6 11. Bxc6 bxc6 {I was quiet happy with
+the result of the opening. I have the bishop pair, his bishop is a bit hemmed
+in, and all my pieces can quickly point at the kingside where White is a bit
+short of defenders} 12. Rd1 Re8 13. Nd4 Qd6 14. Na4 Ba7 {This allows him to
+pick off one of my bishops. The engine gives an interesting way of preserving
+them both with} (14... Bg4 $5 15. f3 Ba7 {when} 16. fxg4 Nxg4 {gives Black an
+enormous attack. However, such a sacrifice didn't even enter my thinking as it
+doesn't seem that White has played the opening so badly that he should be
+getting immediately punished.}) 15. Nb6 Rb8 16. Nxc8 Rbxc8 17. Bd2 Bb8 18. Nf3
+Ne4 19. Bb4 Qh6 20. g3 {This surprised me. White wants to blunt the Black
+bishop, but it seriously weakens the light squares around the White king.} Re6
+21. Kg2 Rce8 22. Rf1 Qh5 23. Be1 Rh6 24. Rh1 ({It is unpleasant to make
+further pawn moves in front of the king with} 24. h4 {but after the text, the
+White rook gets buried on h1}) 24... Qh3+ 25. Kg1 Ba7 ({Of course sacrifices
+on g3 were now on my radar since all of my pieces are about at their best
+positions. The engine points out that} 25... Bxg3 {was winning, with a
+variation like} 26. fxg3 Rf6 27. Nd2 (27. Qd1 Ng5 28. Nd2 Rxe3) 27... Nxd2 28.
+Bxd2 Qf5 {and mates, but it is often hard to find the quiet followups after a
+sacrifice. I decided to reposition my bishop along the diagonal pointing at
+the White king}) 26. Qb7 Bc5 ({I spent most of my remaining time trying to
+calculate the line} 26... Nxg3 27. fxg3 Bxe3+ 28. Bf2 {when again it is a
+quiet move that wins} Rg6 {intending to complete strip the White king bare} ({
+most of my focus was on the more forcing} 28... Bxf2+ $2 {when it looks like
+the best Black can do is perpetual check after} 29. Kxf2 Rf6 30. Rae1 Rxf3+) {
+but the game still seems murky after} 29. Qc7 (29. Bxe3 Rxg3+ 30. hxg3 Qxg3+
+31. Kf1 Qxf3+ 32. Kg1 Qxe3+) 29... d4) ({The most beautiful win is to
+sacrifice the bishop instead of the knight, but it is an insanely difficult
+variation to find} 26... Bxe3 27. fxe3 Rf6 28. Nd2 Rf2 $3 29. Bxf2 Nxd2 {
+threatening ...Nf3# and if White clears f2 for his king he cuts off the
+defense of f1} 30. Be1 Qf1#) {With the clock ticking down I decided not to
+force the issue reckoning that I was playing with an extra rook because of his
+stuck rook on h1 (the rook on a1 isn't doing a whole lot either)} 27. b4 Bd6 $2
+({Of course} 27... Bxe3 $1 {is still working, but I would have played it on
+the previous move if I had seen it. Instead my last 3 moves have done very
+little just repositioning the bishop from b8 to d6}) 28. Qxa6 $2 {A human move,
+grabbing a pawn and preparing to bring the queen into the defense at f1. The
+engine sees no ghosts and takes the other pawn} (28. Qxc6 {hitting e8 and d5
+when the engine concludes most of Black's advantage has evaporated}) 28... Rf6
+29. Nd2 Ng5 ({Here} 29... Rxf2 $1 {isn't mating like before, but the White
+king gets completely stripped bare after} 30. Bxf2 Nxd2 31. Be1 Nf3+ 32. Kf2
+Nxh2) 30. f4 ({Again the engine is cold blooded and just grabs another pawn} 
+30. Qxc6 {and says it's equal. However, the text looks quite attractive as it
+seems like the Black pieces are getting pushed back.}) 30... Ne6 31. Qf1 Qf5
+32. a3 g5 {with all the black pieces pointed at f4, that is finally where the
+breakthrough happens} 33. Nf3 {With a draw offer since I was at a little over
+2 minutes remaining. However, with a 30 second increment, there is no reason
+to be alarmed.} gxf4 34. exf4 Bxf4 {finally crashing through} 35. gxf4 Nxf4 36.
+Bg3 Ne2+ 37. Kg2 Re3 38. Re1 Qe4 {White is completely bound} 39. Kh3 Rfxf3 40.
+Rxe2 Rxf1 41. Rxe3 Qxh1 {capturing the dead rook on h1 is an appropriate
+finish. I was pretty happy with this game as I kept alot of pressure on a
+strong player and didn't lose my head in time pressure. Of course the engine
+finds some mistakes, but they were pretty difficult calculations for the most
+part. I tied for second overall in the tournament my best finish so far in the
+Senior Open.} 0-1
+
