@@ -1,3 +1,5 @@
+import LichessPgnViewer from "./lichess-pgn-viewer.min.js";
+
 const params = new URLSearchParams(window.location.search);
 
 const game = params.get("game");
