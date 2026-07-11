@@ -1,4 +1,10 @@
-import LichessPgnViewer from "./lichess-pgn-viewer.min.js";
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lichess-pgn-viewer@2.4.5/dist/lichess-pgn-viewer.css">
+
+<script type="module">
+import LichessPgnViewer from "https://cdn.jsdelivr.net/npm/lichess-pgn-viewer@2.4.5/dist/lichess-pgn-viewer.min.js";
+window.LichessPgnViewer = LichessPgnViewer;
+</script>
 
 const params = new URLSearchParams(window.location.search);
 
