@@ -1,21 +1,30 @@
+```html
 <!DOCTYPE html>
-<html>
-   
+<html lang="en">
 <head>
- <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/lichess-pgn-viewer@2.4.5/dist/lichess-pgn-viewer.css">
-    
-    <title>Game Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  
+    <title>GKCC Game Viewer</title>
+
+    <!-- Official Lichess PGN Viewer styling -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/lichess-pgn-viewer@2.4.5/dist/lichess-pgn-viewer.css"
+    >
+
+    <!-- Your custom styling must come second -->
+    <link rel="stylesheet" href="css/viewer.css">
 </head>
+
 <body>
 
-<h1 id="title"></h1>
-<div id="board"></div>
+    <h1 id="title"></h1>
 
-<script type="module" src="js/viewer.js"></script>
+    <div id="board"></div>
+
+    <script type="module" src="js/viewer.js"></script>
 
 </body>
 </html>
+```
