@@ -22,10 +22,7 @@ if (!game) {
                 document.getElementById("board"),
                 {
                     pgn: pgn,
-                    showMoves: "right",
-                    pieceStyle: 'merida',
-                      theme: 'blue',
-                      bg: 'light' 
+                    showMoves: "right"
                 }
             );
         })
