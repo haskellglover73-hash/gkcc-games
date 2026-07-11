@@ -1,0 +1,102 @@
+```css
+/* ==================================================
+   GKCC Lichess PGN Viewer
+   Green-and-cream board with a light interface
+   ================================================== */
+
+/* Entire page */
+body {
+    margin: 0;
+    padding: 24px;
+    background-color: #f4f4f4;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page heading */
+#title {
+    max-width: 900px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+/* Viewer container */
+#board {
+    width: min(900px, 100%);
+    margin: 0 auto;
+}
+
+/* Lichess PGN Viewer interface colors */
+.lpv {
+    --c-lpv-accent: #769656;
+    --c-lpv-accent-over: #ffffff;
+
+    --c-lpv-bg: #ffffff;
+    --c-lpv-bg-player: #ffffff;
+    --c-lpv-bg-controls: #eeeeee;
+    --c-lpv-bg-movelist: #ffffff;
+    --c-lpv-bg-variation: #eeeeee;
+    --c-lpv-bg-pane: #f6f6f6;
+
+    --c-lpv-font: #222222;
+    --c-lpv-font-shy: #666666;
+    --c-lpv-past-moves: #444444;
+    --c-lpv-font-bg: #dddddd;
+
+    --c-lpv-current-move: #c8d9b5;
+    --c-lpv-move-hover: #e1ead7;
+
+    --c-lpv-border: #cccccc;
+    --c-lpv-side-border: #bbbbbb;
+
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/*
+   Green-and-cream chessboard.
+
+   The gradient draws a repeating 2-by-2 checker pattern.
+   Because each repeat is 25% of the board, it produces
+   the complete 8-by-8 board.
+*/
+.lpv cg-board {
+    background-color: #eeeed2;
+    background-image:
+        conic-gradient(
+            #769656 25%,
+            #eeeed2 0 50%,
+            #769656 0 75%,
+            #eeeed2 0
+        ) !important;
+    background-size: 25% 25% !important;
+}
+
+/* Coordinate labels on the light squares */
+.lpv coords.files coord:nth-child(odd),
+.lpv coords.ranks coord:nth-child(even) {
+    color: #769656;
+}
+
+/* Coordinate labels on the green squares */
+.lpv coords.files coord:nth-child(even),
+.lpv coords.ranks coord:nth-child(odd) {
+    color: #eeeed2;
+}
+
+/* Smaller screens */
+@media (max-width: 700px) {
+    body {
+        padding: 10px;
+    }
+
+    #title {
+        font-size: 1.4rem;
+        margin-bottom: 12px;
+    }
+
+    #board {
+        width: 100%;
+    }
+}
+```
