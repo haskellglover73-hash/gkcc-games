@@ -1,3 +1,5 @@
+import "https://cdn.jsdelivr.net/npm/lichess-pgn-viewer@2.4.5/dist/lichess-pgn-viewer.css";
+
 import LichessPgnViewer from
     "https://cdn.jsdelivr.net/npm/lichess-pgn-viewer@2.4.5/dist/lichess-pgn-viewer.min.js";
 
