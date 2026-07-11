@@ -22,7 +22,7 @@ if (!game) {
                 document.getElementById("board"),
                 {
                     pgn: pgn,
-                    showMoves: "right"
+                    showMoves: "right",
                     pieceStyle: 'merida',
                       theme: 'blue',
                       bg: 'light' 
