@@ -23,6 +23,9 @@ if (!game) {
                 {
                     pgn: pgn,
                     showMoves: "right"
+                    pieceStyle: 'merida',
+                      theme: 'blue',
+                      bg: 'light' 
                 }
             );
         })
